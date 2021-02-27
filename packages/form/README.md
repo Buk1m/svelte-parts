@@ -25,7 +25,7 @@ npm install @svelte-parts/form
   const onSubmit = data => alert(JSON.stringify(data))
 </script>
 
-<Form fields={fields} onSubmit={onSubmit}>
+<Form fields={fields} onSubmit={onSubmit}/>
 ```
 
 ### Properties
